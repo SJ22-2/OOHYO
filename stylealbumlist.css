@@ -1,0 +1,217 @@
+* {
+	margin: 0;
+	padding: 0;
+	color: #1f1e17;
+}
+
+@font-face {
+    font-family: 'Cafe24SsurroundAir';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2105_2@1.0/Cafe24SsurroundAir.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GmarketSansLight';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansLight.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GmarketSansMedium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+     font-family: 'DungGeunMo';
+     src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/DungGeunMo.woff') format('woff');
+     font-weight: normal;
+     font-style: normal;
+}
+
+.header {
+	width: 100%;
+	height: 85px;
+	background-color: rgba(243, 230, 136, 0.5);
+	position: fixed;
+	z-index: 2;
+}
+
+.header a {
+	text-decoration: none;
+	color: #e0af06;
+}
+
+.header h1 {
+	float: left;
+	line-height: 85px;
+	font-size: 48px;
+	margin-left: 80px;
+}
+
+#menu {
+	float: right;
+	text-align: right;
+	line-height: 85px;
+	margin-right: 80px;
+}
+
+#menu ul li {
+	list-style: none;
+	float: left;
+	margin-left: 56px;
+	font-size: 16px;
+}
+
+#menu ul li .selection {
+	font-weight: bold;
+	font-style: italic;
+	color: #e0af06;
+}
+
+#menu a {
+	text-decoration: none;
+	color: #cdc31f;
+}
+
+video {
+	width: 100%;
+}
+
+
+
+
+.album_intro {
+	font-family: 'Cafe24SsurroundAir';
+	text-align: center;
+	margin: 260px auto;
+}
+
+.album_intro h3 {
+	font-style: italic;
+	font-size: 36px;
+	margin-bottom: 52px;
+}
+
+.album_intro .album .album_list {
+	width: 920px;
+	margin: 0 auto;
+}
+
+.album_intro .album img {
+	height: 300px;
+	width: 300px;
+	object-fit: cover;
+}
+
+.album_intro .album .cover {
+	height: 300px;
+	width: 300px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	float: left;
+	position: relative;
+}
+
+.album_intro .album .cover3,
+.album_intro .album .cover6,
+.album_intro .album .cover9 {
+	margin-right: 0px;
+}
+
+.album_intro .album .cover7,
+.album_intro .album .cover8,
+.album_intro .album .cover9 {
+	margin-bottom: 0px;
+}
+
+.album_intro .album .cover_text {
+	font-size: 14px;
+	opacity: 0;
+	padding: 8px 12px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	z-index: 1;
+}
+
+.album_intro .album .text60 {
+	width: 70%;
+	padding: 8px 4px;
+}
+
+.album_intro .album .cover_bold {
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.album_intro .album .cover:hover img {
+	opacity: 30%;
+}
+
+.album_intro .album .cover:hover .cover_text {
+	background-color: rgba(255, 255, 255, 0.7);
+	border-radius: 30px;
+	color: #cdc31f;
+	opacity: 1;
+}
+
+.album_intro .album .cover:hover .cover_bold {
+	color: #e0af06;
+	opacity: 1;
+}
+
+.clearfix {
+  clear:left;
+}
+
+
+
+
+
+.top p a {
+	text-decoration: none;
+	font-style: italic;
+	font-size: 16px;
+	color: #e0af06;
+}
+.top p {
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+
+.footer {
+	font-family: 'DungGeunMo';
+	background-color: rgba(243, 230, 136, 0.5);
+	padding: 21px 80px;
+	height: 108px;
+}
+
+.footer img {
+	float: left;
+	margin-right: 8px;
+}
+
+.footer p {
+	color: #424242;
+	display: inline;
+}
+
+.footer .footer_text {
+	font-size: 12px;
+}
+
+.footer .footer_left {
+	margin-top: 63px;
+	float: left;
+}
+
+.footer .footer_right {
+	margin-top: 31px;
+	float: right;
+}
